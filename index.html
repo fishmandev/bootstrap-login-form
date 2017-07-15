@@ -9,6 +9,11 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+        .modal-footer {
+            border-top: 0px;
+        }
+    </style>
 </head>
 <body>
 <div class="modal-dialog">
@@ -17,7 +22,7 @@
             <h1 class="text-center">Login</h1>
         </div>
         <div class="modal-body">
-            <form class="center-block">
+            <form class="col-md-12 center-block">
                 <div class="form-group">
                     <input type="text" class="form-control input-lg" placeholder="Username">
                 </div>
@@ -32,7 +37,9 @@
             </form>
         </div>
         <div class="modal-footer">
-            <button class="btn">Cancel</button>
+            <div class="col-md-12">
+                <button class="btn">Cancel</button>
+            </div>
         </div>
     </div>
 </div>
